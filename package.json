@@ -7,7 +7,7 @@
         "test": "test"
     },
     "dependencies": {
-        "@adiwajshing/baileys": "github: mccnlight/baileys",
+        "@adiwajshing/baileys": "git+https://github.com/mccnlight/Baileys.git",
         "axios": "^0.21.1",
         "form-data": "^4.0.0",
         "yt-search":"*",
