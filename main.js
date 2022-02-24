@@ -21,8 +21,8 @@ const lintod = conn.lintod
 let multipref = true;
 let self = true;
 let noprefix = false;
-let author = "@linlxn.8"
-let pack = "github.com/mccnlight"
+let author = "@AimanZ"
+let pack = "github.com/ai-man-123"
 
 lintod.on('chat-update', async(lin) => {
   try {
@@ -187,7 +187,7 @@ lintod.on('chat-update', async(lin) => {
         break
       case "button":
         var buttons = [{ buttonId: 'example', buttonText: { displayText: 'yes' }, type: 1 }, { buttonId: 'example2', buttonText: { displayText: 'no' }, type: 1 }]
-        var buttonsMessage = { contentText: `Do you love me?`, footerText: 'click this', buttons: buttons, headerType: 1 }
+        var buttonsMessage = { contentText: `Do you love aiman?`, footerText: 'click this', buttons: buttons, headerType: 1 }
         var sendMsg = await lintod.prepareMessageFromContent(from, { buttonsMessage }, {})
         lintod.relayWAMessage(sendMsg, { waitForAck: true })
         break
